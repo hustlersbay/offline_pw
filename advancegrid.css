@@ -1,0 +1,17 @@
+.container{
+    border: 2px red;
+    height: 500px;
+    background-color: blue;
+    display: grid;
+    grid-gap:29px;
+    grid-auto-rows: minmax(10opx, auto);
+    grid-template-columns: repeat(4,1fr);
+    align-content: end;
+
+}
+.box{
+    background-color:burlywood;
+    border: 2px solid black;
+    height: 96px;
+    
+}

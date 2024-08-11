@@ -1,0 +1,14 @@
+.container{
+    height: 500px;
+    border: 2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.box{
+    border: 1px solid red;
+    background-color: orange;
+    width: 50px;
+}

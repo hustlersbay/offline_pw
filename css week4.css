@@ -1,0 +1,13 @@
+.container{
+    background-color: red;
+    border: 3px;
+    border-style: dashed;
+    border-color: black;
+}
+@media only screen and (max-width:767px){
+   
+    #clickme{
+        color: sandybrown;
+        background-color: aqua;
+    }
+}

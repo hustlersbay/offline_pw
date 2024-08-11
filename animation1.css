@@ -1,0 +1,46 @@
+.container{
+width: 100%;
+height: 215px;
+background-color: yellow;
+border: 2px solid burlywood;
+
+}
+.box{
+    height: 212px;
+    width: 212px;
+    border: 2px solid green;
+    background-color: aliceblue;
+    animation-name: omkar;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    /* animation-direction: alternate; */
+     animation-fill-mode: forwards;
+}
+/* @keyframes omkar {
+    from {
+        width: 212px;
+    }
+    to {
+        width: 800px;
+    }
+} */
+@keyframes omkar {
+    0% {
+        width: 212px;
+        background-color: orange;
+    }
+    30%{
+        width: 30%;
+        background-color: aliceblue;
+    }
+    70%{
+        width: 75%;
+        background-color: aquamarine;
+    }
+    100%{
+        width: 100%;
+        background-color: rebeccapurple ;
+    }
+}

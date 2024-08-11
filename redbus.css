@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('bus-background.jpg'); /* Add your own background image */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #ff5a00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.search-form {
+    padding: 30px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.search-form h2 {
+    margin-bottom: 20px;
+}
+
+.search-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.search-form input[type="text"],
+.search-form input[type="date"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.search-form input[type="submit"] {
+    background-color: #ff5a00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.bus-options {
+    padding: 30px;
+    text-align: center;
+}
+
+.bus-options h2 {
+    margin-bottom: 20px;
+}
+
+.bus-card {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: inline-block;
+    width: 200px;
+}
+
+.bus-card h3 {
+    margin-top: 0;
+}
+
+.bus-card button {
+    background-color: #ff5a00;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
